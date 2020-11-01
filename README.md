@@ -1,5 +1,10 @@
 # github-ci-monitor
 
+[![Build Status](https://github.com/suzuki-shunsuke/github-ci-monitor/workflows/CI/badge.svg)](https://github.com/suzuki-shunsuke/github-ci-monitor/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/suzuki-shunsuke/github-ci-monitor)](https://goreportcard.com/report/github.com/suzuki-shunsuke/github-ci-monitor)
+[![GitHub last commit](https://img.shields.io/github/last-commit/suzuki-shunsuke/github-ci-monitor.svg)](https://github.com/suzuki-shunsuke/github-ci-monitor)
+[![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/suzuki-shunsuke/github-ci-monitor/master/LICENSE)
+
 Check GitHub repositories CI statues and send them to DataDog.
 
 ## Overview
