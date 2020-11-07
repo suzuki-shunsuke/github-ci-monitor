@@ -16,7 +16,18 @@ By running this tool periodically, we can monitor the status by DataDog.
 
 This tool gets GitHub repositories CI statues (commit status and Check API) and sends the result by DataDog API.
 
-## How to run this tool as Lambda Function
+## Running on AWS Lambda
+
+### Architecture
+
+![architecture.png](https://user-images.githubusercontent.com/13323303/98443118-9c649280-214c-11eb-85fd-d89111258e93.png)
+
+1. Run a Lambda Function periodically with Amazon CloudWatch Events.
+1. In a Lambda Function, get repositories statuses by GitHub API
+1. Send service checks by DataDog API
+1. Configure DataDog Monitor and send alerts from DataDog to Slack
+
+### How to setup
 
 * Create AWS Secrets Manager's secret
 * Deploy the Lambda Function with AWS SAM
