@@ -5,4 +5,4 @@ bin/*
 .envrc
 .aws-sam
 samconfig.toml
-template.yaml
+packaged.yaml
