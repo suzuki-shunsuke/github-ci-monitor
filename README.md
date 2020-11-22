@@ -29,10 +29,11 @@ This tool gets GitHub repositories CI statues (commit status and Check API) and 
 
 ### How to setup
 
+We publish [github-ci-monitor at AWS Serverless Application Repository](https://ap-northeast-1.console.aws.amazon.com/lambda/home?region=ap-northeast-1#/create/app?applicationId=arn:aws:serverlessrepo:ap-northeast-1:455828037039:applications/github-ci-monitor).
+
 * Create AWS Secrets Manager's secret
 * Deploy the Lambda Function with AWS SAM
-* Give the IAM Role the permission to read the secret
-* Configure AWS CloudWatch Events to run this tool periodically
+  * [Example of SAM template](examples/sam/template.yaml)
 
 ### Configuration
 
@@ -59,7 +60,6 @@ secret_id: github-ci-monitor
 check_name: ci.ok
 tags:
   sender: github-ci-monitor
-# version_id:
 ```
 
 #### AWS Secrets Manager's secret
