@@ -3,7 +3,7 @@ module github.com/suzuki-shunsuke/github-ci-monitor
 go 1.15
 
 require (
-	github.com/aws/aws-lambda-go v1.20.0
+	github.com/aws/aws-lambda-go v1.21.0
 	github.com/aws/aws-sdk-go v1.36.7
 	github.com/google/go-github/v32 v32.1.0
 	github.com/sirupsen/logrus v1.7.0
