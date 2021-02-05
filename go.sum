@@ -146,6 +146,8 @@ github.com/suzuki-shunsuke/flute/v2 v2.0.0/go.mod h1:wsUAUZbz+DSjv+XDv/gZeEX/mMu
 github.com/suzuki-shunsuke/go-cliutil v0.0.0-20181211154308-176f852d9bca/go.mod h1:Vq3NkhgmA9DT/2UZ08x/3A34xxvzQ/vTMABnTWKoMbY=
 github.com/suzuki-shunsuke/go-findconfig v0.1.0 h1:ORAMPULNwus1kIvhcHaubo0Pw1ehlgRbSAxmAJL7KI4=
 github.com/suzuki-shunsuke/go-findconfig v0.1.0/go.mod h1:u/0Zz6/GDE6G0gofzVhR9UPOIKLSUoDMjUoFWqOoVlg=
+github.com/suzuki-shunsuke/go-findconfig v1.0.0 h1:RSETNCdYurpepqz/z9iM8DzJKK6TbvtV63ZVCIXaxkI=
+github.com/suzuki-shunsuke/go-findconfig v1.0.0/go.mod h1:u/0Zz6/GDE6G0gofzVhR9UPOIKLSUoDMjUoFWqOoVlg=
 github.com/suzuki-shunsuke/go-httpclient v1.0.0 h1:YWg5KXySdeR7P+j16p1GS5FIkxUemndWHSE57G+70OA=
 github.com/suzuki-shunsuke/go-httpclient v1.0.0/go.mod h1:Yi2v1rwKD0BcburY4hM9HVKIm/nGbbHwFqAUXxD0728=
 github.com/suzuki-shunsuke/go-jsoneq v0.1.2 h1:A4czEbmFqSELTbrEtXVo4dSgfz2e2Z0y6G3OpExUML8=
