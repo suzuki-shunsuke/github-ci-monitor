@@ -35,8 +35,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/aws/aws-lambda-go v1.22.0 h1:X7BKqIdfoJcbsEIi+Lrt5YjX1HnZexIbNWOQgkYKgfE=
 github.com/aws/aws-lambda-go v1.22.0/go.mod h1:jJmlefzPfGnckuHdXX7/80O3BvUUi12XOkbv4w9SGLU=
-github.com/aws/aws-sdk-go v1.37.1 h1:BTHmuN+gzhxkvU9sac2tZvaY0gV9ihbHw+KxZOecYvY=
-github.com/aws/aws-sdk-go v1.37.1/go.mod h1:hcU610XS61/+aQV88ixoOzUoG7v3b31pl2zKMmprdro=
+github.com/aws/aws-sdk-go v1.37.8 h1:9kywcbuz6vQuTf+FD+U7FshafrHzmqUCjgAEiLuIJ8U=
+github.com/aws/aws-sdk-go v1.37.8/go.mod h1:hcU610XS61/+aQV88ixoOzUoG7v3b31pl2zKMmprdro=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
@@ -144,8 +144,6 @@ github.com/stretchr/testify v1.6.1/go.mod h1:6Fq8oRcR53rry900zMqJjRRixrwX3KX962/
 github.com/suzuki-shunsuke/flute/v2 v2.0.0 h1:cDpi+h9wceJuOEjOxTvZNQXsIS+lv2Ism4ZdfYgMOnU=
 github.com/suzuki-shunsuke/flute/v2 v2.0.0/go.mod h1:wsUAUZbz+DSjv+XDv/gZeEX/mMu1y9kzIXCN5Slu6NY=
 github.com/suzuki-shunsuke/go-cliutil v0.0.0-20181211154308-176f852d9bca/go.mod h1:Vq3NkhgmA9DT/2UZ08x/3A34xxvzQ/vTMABnTWKoMbY=
-github.com/suzuki-shunsuke/go-findconfig v0.1.0 h1:ORAMPULNwus1kIvhcHaubo0Pw1ehlgRbSAxmAJL7KI4=
-github.com/suzuki-shunsuke/go-findconfig v0.1.0/go.mod h1:u/0Zz6/GDE6G0gofzVhR9UPOIKLSUoDMjUoFWqOoVlg=
 github.com/suzuki-shunsuke/go-findconfig v1.0.0 h1:RSETNCdYurpepqz/z9iM8DzJKK6TbvtV63ZVCIXaxkI=
 github.com/suzuki-shunsuke/go-findconfig v1.0.0/go.mod h1:u/0Zz6/GDE6G0gofzVhR9UPOIKLSUoDMjUoFWqOoVlg=
 github.com/suzuki-shunsuke/go-httpclient v1.0.0 h1:YWg5KXySdeR7P+j16p1GS5FIkxUemndWHSE57G+70OA=
