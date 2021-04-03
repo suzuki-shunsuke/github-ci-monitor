@@ -1,0 +1,26 @@
+---
+builds:
+- binary: github-ci-monitor
+  id: github-ci-monitor
+  main: cmd/github-ci-monitor/main.go
+  env:
+  - CGO_ENABLED=0
+  goos:
+  - windows
+  - darwin
+  - linux
+  goarch:
+  - amd64
+- binary: github-ci-monitor-lambda
+  id: github-ci-monitor-lambda
+  main: cmd/github-ci-monitor-lambda/main.go
+  env:
+  - CGO_ENABLED=0
+  goos:
+  - windows
+  - darwin
+  - linux
+  goarch:
+  - amd64
+release:
+  prerelease: true
