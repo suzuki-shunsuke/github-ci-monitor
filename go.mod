@@ -10,6 +10,6 @@ require (
 	github.com/suzuki-shunsuke/go-findconfig v1.0.0
 	github.com/suzuki-shunsuke/go-httpclient v1.0.0
 	github.com/urfave/cli/v2 v2.3.0
-	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
+	golang.org/x/oauth2 v0.0.0-20210628180205-a41e5a781914
 	gopkg.in/yaml.v2 v2.4.0
 )
