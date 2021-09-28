@@ -15,7 +15,7 @@ Resources:
           repos:
           - owner: suzuki-shunsuke
             repo: github-ci-monitor
-            ref: master
+            ref: main
             check_suite: true
             tags:
               env: test
