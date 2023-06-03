@@ -6,7 +6,7 @@ require (
 	github.com/aws/aws-lambda-go v1.41.0
 	github.com/aws/aws-sdk-go v1.44.130
 	github.com/google/go-github/v32 v32.1.0
-	github.com/sirupsen/logrus v1.9.2
+	github.com/sirupsen/logrus v1.9.3
 	github.com/suzuki-shunsuke/go-findconfig v1.1.1
 	github.com/suzuki-shunsuke/go-httpclient v1.0.0
 	github.com/urfave/cli/v2 v2.24.4
