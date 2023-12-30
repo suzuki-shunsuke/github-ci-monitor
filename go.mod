@@ -9,7 +9,7 @@ require (
 	github.com/sirupsen/logrus v1.9.3
 	github.com/suzuki-shunsuke/go-findconfig v1.1.1
 	github.com/suzuki-shunsuke/go-httpclient v1.0.0
-	github.com/urfave/cli/v2 v2.24.4
+	github.com/urfave/cli/v2 v2.27.1
 	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
 	gopkg.in/yaml.v2 v2.4.0
 )
