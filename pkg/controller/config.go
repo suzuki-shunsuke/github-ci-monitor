@@ -30,7 +30,7 @@ func (reader Reader) read(p string) (Params, error) {
 	return params, nil
 }
 
-var ErrNotFound error = errors.New("configuration file isn't found")
+var ErrNotFound = errors.New("configuration file isn't found")
 
 func (reader Reader) FindAndRead(cfgPath, wd string) (Params, string, error) {
 	params := Params{}

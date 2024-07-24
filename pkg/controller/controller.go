@@ -180,7 +180,7 @@ func (ctrl Controller) createTags(tagMaps ...map[string]string) []string {
 			m[k] = v
 		}
 	}
-	tags := make([]string, len(m))
+	tags := make([]string, 0, len(m))
 	for k, v := range m {
 		tags = append(tags, k+":"+v)
 	}
@@ -213,7 +213,7 @@ func (ctrl Controller) Run(ctx context.Context, params Params) error {
 		logE = logE.WithField("status", status)
 		logE.Info("send a check to DataDog")
 
-		_, err = ctrl.DataDog.Check(ctx, datadog.ParamCheck{
+		_, err = ctrl.DataDog.Check(ctx, datadog.ParamCheck{ //nolint:bodyclose
 			Status: status,
 			Check:  params.CheckName,
 			Tags: ctrl.createTags(
