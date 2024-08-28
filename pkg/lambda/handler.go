@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/secretsmanager"
 	"github.com/sirupsen/logrus"
 	"github.com/suzuki-shunsuke/github-ci-monitor/pkg/controller"
-	"gopkg.in/yaml.v2"
+	"gopkg.in/yaml.v3"
 )
 
 type Handler struct{}
