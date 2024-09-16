@@ -5,7 +5,7 @@ go 1.22.5
 require (
 	github.com/aws/aws-lambda-go v1.47.0
 	github.com/aws/aws-sdk-go v1.55.1
-	github.com/google/go-github/v63 v63.0.0
+	github.com/google/go-github/v65 v65.0.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/suzuki-shunsuke/go-findconfig v1.2.0
 	github.com/suzuki-shunsuke/go-httpclient v1.0.0
